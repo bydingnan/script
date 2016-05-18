@@ -299,6 +299,7 @@ Remove (unlink) the FILE(s).
 --no-preserve-root do not treat `/' specially (the default)
 --preserve-root   fail to operate recursively on `/'
 -r, -R, --recursive   remove directories and their contents recursively
+-l, recover files
 --help display this help and exit
 By default, rm does not remove directories.  Use the --recursive (-r or -R)
 option to remove each listed directory, too, along with all of its contents.
