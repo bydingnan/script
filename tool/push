@@ -1,0 +1,10 @@
+#!/bin/bash
+
+
+if [ $# -eq 1 ];then
+	scp -r "$1" talkmate@NameNode:/home/talkmate/share/
+elif [ $# -eq 2 ];then
+	scp -r "$1" "talkmate@NameNode:/home/talkmate/share/$2"
+else
+	echo "Usage: push file [path]"
+fi
